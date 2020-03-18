@@ -1,0 +1,152 @@
+.navbar-brand, .nav-btn {
+background-color: transparent;
+border: 0px;
+}
+
+.card-title, .fa-star, .navbar-brand, .nav-btn {
+  cursor: pointer;
+}
+
+.user-avatar {
+  margin: auto;
+  margin-top: 20px;
+  max-width: 200px;
+}
+
+.female {
+  border: 3px solid #f56162;
+}
+
+.male {
+  border: 3px solid #61acf5;
+}
+
+.fa-male {
+  color: #61acf5;
+}
+
+.fa-female {
+  color: #f56162;
+}
+
+#show-user-avatar {
+  margin: auto 0px;
+}
+
+.row {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+@media screen and (max-width: 576px) {
+  
+  .card-title {
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+}
+
+  .card-text, .gender-age {
+  font-size: 0.6rem;
+} 
+
+  .fa-star {
+    margin-top: 1rem;
+    margin-right: 1rem;
+  }
+
+
+  #show-user-avatar {
+    width: 80%;
+  }
+
+  .modal-user-name {
+    font-size: 1rem;
+    margin-top: 1rem;
+  }
+
+  .modal-user-info {
+    font-size: 0.8rem;
+    margin-top: 1rem;
+    line-height: 1.5rem;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+
+  .card-title {
+  font-size: 1.3rem;
+  margin-bottom: 1.5rem;
+}
+
+  .card-text, .gender-age {
+  font-size: 0.9rem;
+} 
+
+  .fa-star {
+    margin-top: 1rem;
+    margin-right: 1rem;
+  }
+
+  .modal-dialog, .modal-body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    width:80%;
+    height:100%;
+    margin: auto;
+  }
+
+  .modal-user-name {
+    font-size: 1.1rem;
+    margin-top: 1rem;
+  }
+
+  .modal-user-info {
+    font-size: 0.8rem;
+    margin-top: 1rem;
+    line-height: 1.5rem;
+  }
+}
+
+
+@media screen and (min-width: 768px) {
+
+  .card-title {
+  font-size: 1.4rem;
+  margin-bottom: 1.5rem;
+}
+
+  .card-text, .gender-age {
+  font-size: 0.9rem;
+} 
+
+  .fa-star {
+    margin-top: 1rem;
+    margin-right: 1rem;
+  }
+
+  .modal-dialog, .modal-body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    width:100%;
+    height:100%;
+    margin: auto;
+  }
+
+  .modal-user-name {
+    font-size: 1.3rem;
+    margin-top: 1.2rem;
+  }
+
+  .modal-user-info {
+    font-size: 1rem;
+    margin-top: 1rem;
+    line-height: 1.5rem;
+  }
+}
